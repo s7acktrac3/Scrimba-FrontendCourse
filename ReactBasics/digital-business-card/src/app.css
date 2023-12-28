@@ -1,0 +1,120 @@
+body {
+    background: #23252C;
+    padding-right: 37%;
+    padding-left: 37%;
+    padding-top: 2%;
+}
+
+.main_container {
+    background: #d3d3d3;
+    border-radius: 25px 25px 25px 25px; 
+}
+
+.info--img {
+    width: 100%;
+    border-radius: 25px 25px 25px 25px; 
+}
+.info--name {
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    display: grid;
+    place-content: center;
+}
+
+.info--title {
+    color: #F47D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info--site {
+    color: #4A4E74;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Inter;
+
+}
+.about > .first {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+
+.interest {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Inter;
+
+
+}
+.interest > .first {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    background: #D5D4D8;
+    width: 100%;
+
+}
+
+.footer > img {
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.info--buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.info--email-button {
+    display: flex;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-right: 5px;
+}
+
+.info--linkedin-button {
+    display: flex;
+    border-radius: 6px;
+    background: #297FE5;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
