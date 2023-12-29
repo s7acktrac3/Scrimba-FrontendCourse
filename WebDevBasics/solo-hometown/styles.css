@@ -1,0 +1,87 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("https://www.tpl.org/wp-content/uploads/2019/05/NewarkNJ.jpg");
+    background-size: cover;
+    background-position: 0px -270px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroTitle {
+    text-align: center;
+    color: white;
+    background-color: #457B9D;
+    margin: 200px 0 10px 0;
+}
+
+.heroDescription {
+    text-align: center;
+    color: white;
+    background-color: #1D3557;
+    margin: 0 auto 0 auto;
+}
+
+.heroDescription,
+.heroTitle {
+    padding: 8px 16px;
+    border-radius: 10px;
+
+}
+
+.activities-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activities-header {
+    width: 439px;
+    height: 20px;
+    margin: 0px auto 50px auto;
+    padding: 10px 0 0 0;
+    color: #1D3557;
+    text-align: center;
+    font-size: 24px;
+    font-style: bold;
+}
+
+.activities-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+}
+
+.activities {
+    background: #F1FAEE;
+}
+
+
+.card {
+    margin: 5px auto 5px auto;
+    width: 400px;
+    padding: 20px;
+    background: #ddebf8;
+    color: #2b2839;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px 0px #1D3557; 
+}
